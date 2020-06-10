@@ -18,7 +18,7 @@ describe('Color Code Converter', function () {
     it('converts the basic colors', function () {
       var red = converter.hexToRgb('ff0000');
       var green = converter.hexToRgb('00ff00');
-      var blue = converter.hexToRgb('0000ff');
+      var blue = converter.hexToRgb('0000f0');
 
       expect(red).to.deep.equal([255, 0, 0]);
       expect(green).to.deep.equal([0, 255, 0]);
